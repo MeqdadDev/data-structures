@@ -24,8 +24,8 @@ public class ArrayStack {
 
     public void pop(){
         top--;
-        if (top < 0){
-            return;
+        if (isEmpty()){
+            System.exit(1);
         }
     }
 
