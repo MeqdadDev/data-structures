@@ -1,5 +1,3 @@
-package StackProblems.BalancedParentheses.CustomizedArrayStack;
-
 public class ArrayStack {
 
     private final char[] stack = new char[100];
