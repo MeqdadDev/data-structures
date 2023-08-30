@@ -38,7 +38,7 @@ public class ArrayStack {
 
     public void display(){
         for(int i=0; i<=top;i++)
-            System.out.println(i);
+            System.out.println(stack[i]);
     }
 
     public boolean isEmpty() {
